@@ -1,23 +1,23 @@
-.hero
-{
+.hero {
     margin-bottom: 50px;
 }
-.hero-heading
-{
-    font-size:48px;
+
+.hero-heading {
+    font-size: 48px;
     line-height: 1.2;
     font-weight: 600;
-    margin:40px 0px 20px 0px;
+    margin: 40px 0px 20px 0px;
     width: 70%;
 }
-.hero-text
-{
+
+.hero-text {
     width: 70%;
 }
-.hero-btns
-{
+
+.hero-btns {
     margin-top: 20px;
 }
+
 .hero-btn-1 {
     background-color: #4891ff;
     color: white;
@@ -32,6 +32,7 @@
     transition: 0.5s;
     font-size: 20px;
 }
+
 .hero-btn-2 {
     background-color: #e0e0e0;
     color: #333;
@@ -47,26 +48,27 @@
     font-size: 20px;
     margin-left: 15px;
 }
+
 @media (max-width:670px) {
-    .hero-heading{
-      text-align: center;
-      font-size: 36px;
-      width: 100%;
+    .hero-heading {
+        text-align: center;
+        font-size: 36px;
+        width: 100%;
     }
-    .hero-text
-    {
-       text-align: center;
-       width: 100%; 
+
+    .hero-text {
+        text-align: center;
+        width: 100%;
     }
-    .hero-btns
-    {
+
+    .hero-btns {
         display: flex;
         flex-direction: column;
     }
-    .hero-btn-2
-    {
+
+    .hero-btn-2 {
         margin-left: 0px;
         margin-top: 15px;
     }
-  
-  }
+
+}

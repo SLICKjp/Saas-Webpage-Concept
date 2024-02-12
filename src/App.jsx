@@ -12,12 +12,12 @@ function App() {
     <>
       <div>
         <Navbar />
-        <HeroSection/>
-        <Video/>
-        <Testimonials/>
-        <PricingCard/>
-        <Faq/>
-        <Footer/>
+        <HeroSection />
+        <Video />
+        <Testimonials />
+        <PricingCard />
+        <Faq />
+        <Footer />
       </div>
     </>
   );

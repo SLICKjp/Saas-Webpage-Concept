@@ -1,13 +1,12 @@
-.card-quote
-{
+.card-quote {
     font-weight: normal;
     font-style: italic;
 }
-.card-author
-{
-   padding-top:35px;
+
+.card-author {
+    padding-top: 35px;
 }
-.card-organization
-{
+
+.card-organization {
     font-weight: normal;
 }

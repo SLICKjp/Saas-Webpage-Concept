@@ -1,14 +1,13 @@
-.video-text
-{
-font-size: 2.2rem;
-line-height: 1.4;
-font-weight: normal;
-margin: 40px 0 20px;
-color: #FFFFFF;
-text-align: center;
+.video-text {
+    font-size: 2.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 40px 0 20px;
+    color: #FFFFFF;
+    text-align: center;
 }
-.vid-btn
-{
+
+.vid-btn {
     background-color: #4891ff;
     color: white;
     display: inline-block;
@@ -23,18 +22,18 @@ text-align: center;
     font-size: 20px;
 
 }
-.video-container
-{
+
+.video-container {
     background-color: #131316;
     padding: 10px 0px 40px;
 }
-.video-content
-{
+
+.video-content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.vid-img
-{
-    margin-bottom:30px;
+
+.vid-img {
+    margin-bottom: 30px;
 }

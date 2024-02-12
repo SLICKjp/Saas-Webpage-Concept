@@ -14,16 +14,16 @@ const Testimonials = () => {
                             return (
                                 // eslint-disable-next-line react/jsx-key
                                 <div className="card-container">
-                                <Card
-                                    key={item.id}
-                                    title={item.title}
-                                    author={item.author}
-                                    organization={item.organization}
-                                />
-                              </div>
+                                    <Card
+                                        key={item.id}
+                                        title={item.title}
+                                        author={item.author}
+                                        organization={item.organization}
+                                    />
+                                </div>
                             );
                         })}
-                        </div>
+                    </div>
                 </div>
             </section>
         </>

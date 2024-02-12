@@ -1,13 +1,15 @@
 import "./navbar.css";
 import logo from "../../assets/logo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars,faXmark } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import { useState } from "react";
 
 const Navbar = () => {
 
   const [toggle, setToggle] = useState(false);
+
   const handleClick = () => {
+
     setToggle(!toggle);
   }
   return (
@@ -18,12 +20,12 @@ const Navbar = () => {
         </div>
 
         <div className="main-menu">
-          <ul className={toggle?"nav-links":"nav-links-open"}>
+          <ul className={toggle ? "nav-links-open" : "nav-links"}>
             <li>Home</li>
             <li>About Us</li>
             <li>Blog</li>
           </ul>
-        <FontAwesomeIcon icon={toggle?faBars:faXmark} className="hamburger-icon" onClick={handleClick}/>
+          <FontAwesomeIcon icon={toggle ? faXmark : faBars} className="hamburger-icon" onClick={handleClick} />
         </div>
       </div>
     </nav>

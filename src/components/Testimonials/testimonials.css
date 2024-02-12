@@ -31,8 +31,8 @@
   .testimonials-card-container {
     grid-template-columns: 1fr;
   }
-  .testimonials-title
-  {
+
+  .testimonials-title {
     width: 100%;
   }
 
