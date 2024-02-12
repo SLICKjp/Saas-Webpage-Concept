@@ -1,0 +1,32 @@
+.accordion
+{
+    margin-top:110px;
+}
+.accordion-heading
+{
+  text-align: center;
+  font-weight:600;
+  font-size: 40px;
+}
+.accordion-item
+{
+    padding:40px 0px 40px 0px;
+    font-size:19px;
+}
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight:600;
+  }
+  .accordion-content
+  {
+    display: none;
+  }
+  .accordion-content-display
+  {
+    display:block;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #494A4D;
+  }
